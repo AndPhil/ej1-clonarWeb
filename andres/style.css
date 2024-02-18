@@ -1,0 +1,453 @@
+/* Se definen variables principales de toda la web.*/
+:root {
+    --fondo-web: whitesmoke;
+    --color-gris: rgb(65,65,65);
+    --color-verde: rgb(0,150,0);
+    --letra-color-blanco: rgb(200,200,200);
+}
+
+
+/* Defino estilos que se van a dar en toda la página. */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--fondo-web);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*---------- HEADER ----------*/
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-gris);
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    color: var(--letra-color-blanco);
+    font-size: 0.9rem;
+}
+
+header section img {
+    width: 100px;
+}
+
+header nav {
+    padding: 8px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--letra-color-blanco);
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: white;
+    text-shadow: 0px 0px, 15px rgb(255,255,120);
+    transform: scale(110%);
+}
+
+#nav-btn-tickets {
+    color: var(--color-verde);
+}
+
+#nav-btn-tickets:hover{
+    color: white;
+    text-shadow: 0px 0px 15px red;
+}
+
+
+
+/*---------- MAIN ----------*/
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------- ARTICLES ----------*/
+article {
+    min-height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------- ARTICLES - HEAD ----------*/
+.article-head {
+    background-image: url(/ej1-clonarWeb/img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -95px;
+    display: flex;
+}
+
+.article-head-filter {
+    backdrop-filter: brightness(45%);
+    width: 100%;
+
+    /* Propiedades para mover el bloque de texto.*/
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.article-head section {
+    min-width: 300px;
+    max-width: 35%;
+
+    position: absolute;
+    bottom: 55px;
+    right: 50px;
+
+    text-align: right;
+    color: var(--letra-color-blanco);
+}
+
+.article-head section h2 {
+    font-size: 2rem;
+}
+
+.article-head section p {
+    color: var(--letra-color-blanco);
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 20px;
+
+    margin-top: -10px;  /* Para acercar título al parrafo */
+}
+
+.article-head button {
+    padding: 5px;
+    margin-left: 5px;
+    color: var(--letra-color-blanco);
+    border: solid 1px var(--letra-color-blanco);
+    border-radius: 2px;
+    background-color: transparent;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.article-head button:hover {
+    box-shadow: 2px 3px 10px white;
+    scale: 110%;
+}
+
+#head-btn-tickets {
+    background-color: var(--color-verde);
+    border: none;
+}
+
+
+/*---------- ARTICLES - ORADORES ----------*/
+.article-oradores {
+    text-align: center;
+    padding: 0;
+}
+
+
+/*---------- ARTICLES - ORADORES / TITULOS ----------*/
+.article-oradores section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-oradores h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.article-oradores h2 {
+    margin: 0;
+}
+
+
+/*---------- ARTICLES - ORADORES / CARDS ----------*/
+.article-oradores-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article-oradores-card {
+    max-width: 250px;
+    min-width: 200px;
+
+    border-radius: 15px;
+    border: solid 1px lightgray;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.article-oradores-card img {
+    width: 100%;
+}
+
+.article-oradores-card > div {    /*CONTENEDOR TOPICS*/
+    padding: 10px;
+}
+
+.article-oradores-card div div {
+    display: flex;
+    align-items: center;
+}
+
+#topic-Js {
+    font-weight: bolder;
+    
+    background-color: rgb(230, 160, 25);
+    border-radius: 5px;
+    
+    padding: 3px;
+}
+
+#topic-R {
+    font-weight: bolder;
+    color: white;
+    
+    background-color: rgb(35, 175, 160);
+    border-radius: 5px;
+    
+    padding: 3px;
+    margin: 2px;
+}
+
+#topic-N {
+    font-weight: bolder;
+    color: white;
+    
+    background-color: rgb(84, 84, 84);
+    border-radius: 5px;
+    
+    padding: 3px;
+    margin: 2px;
+}
+
+#topic-Str {
+    font-weight: bolder;
+    color: white;
+    
+    background-color: rgb(192, 27, 27);
+    border-radius: 5px;
+    
+    padding: 3px;
+    margin: 2px;
+}
+
+.article-oradores-card div h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.article-oradores-card div p {
+    font-size: 0.7rem;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+
+
+/*---------- ARTICLES - LUGAR ----------*/
+.article-lugar {
+    width: 100%;
+    min-width: 200px;
+    max-height: 300px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.article-lugar section {
+    width: 50%;
+    overflow: hidden;
+}
+
+.article-lugar section > img {
+    height: 100%;
+    width: 100%;
+}
+
+.article-lugar-info {
+    background-color: var(--color-gris);
+    color: var(--letra-color-blanco);
+    padding: 0 5px 0 5px;
+}
+
+.article-lugar-info h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.article-lugar-info p {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    padding: 0;
+}
+
+.article-lugar-info button {
+    background-color: transparent;
+    color: var(--letra-color-blanco);
+    border: solid 1px var(--letra-color-blanco);
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 0.7rem;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.article-lugar-info button:hover {
+    transform: scale(110%);
+    box-shadow: 1px 2px 15px black;
+    color: var(--color-verde);
+}
+
+
+/*---------- ARTICLES - FORMULARIO ----------*/
+.article-form {
+    padding: 15px 0 15px 0;
+    margin: 0;
+    min-height: min-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-form section {
+    text-align: center;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.article-form section > h3, .article-form section > h4 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.article-form section > h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.article-form fieldset {
+    text-align: left;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+
+.article-form fieldset div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-form fieldset div input {
+    width: 100%;
+    padding: 5px;
+
+    background-color: transparent;
+    border: solid 1px lightgray;
+    border-radius: 4px;
+
+    font-size: 0.8rem;
+}
+
+.article-form fieldset textarea {
+    width: 100%;
+    min-height: 10px;
+    max-height: 100px;
+    padding: 5px;
+
+    background-color: transparent;
+    border: solid 1px lightgray;
+    border-radius: 4px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.article-form fieldset p {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.article-form fieldset button {
+    background-color: var(--color-verde);
+    color: var(--letra-color-blanco);
+    padding: 8px;
+
+    border: none;
+    border-radius: 4px;
+
+    width: 100%;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.article-form fieldset button:hover {
+    box-shadow: 1px 2px 10px black;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black;
+    transform: scale(105%);
+}
+
+
+/*----- FOOTER -----*/
+footer {
+    height: 50px;
+    background-color: rgb(6, 65, 119);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    color: var(--letra-color-blanco);
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+footer li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer li:hover {
+    text-shadow: 0px 0px 10px red;
+    font-weight: bolder;
+    transform: scale(105%);
+}
