@@ -1,10 +1,334 @@
-body {
+:root button {
+    transition: all 1s;
+}
+
+header {
     font-family: Arial, sans-serif;
-    background-color: #224;
+    background-color: #353A40;
+    color: #fff;
+    display: flex;
     margin: 0;
     padding: 0;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.div-logo {
     display: flex;
+    align-self: center;
+}
+
+.div-logo-img {
+    height: 75px ;
+    align-self: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    align-self: center;
+    margin: right;
+}    
+
+nav a {
+    transition: border,color 1s;
+    color: #9A9EA1;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+nav a:first-child {
+    color: #fff;
+}
+
+nav a:last-child {
+    color: #299B43;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #299B43;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.first-article {
+    background-image: url("../img/ba1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.first-article-div {
+    color: #fff;
+    text-align: right;
+    padding-right: 120px;
+    padding-top: 300px;
+
+}
+
+.first-article-div b {
+    font-size: 2.5em;
+}
+
+.first-article-div p {
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+button.boton-orador {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+button.boton-orador:hover {
+    transform: scale(1.1);
+    background-color: #333;
+    color: #eee;
+}
+
+button.boton-tickets {
+    background-color: #29A746;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+button.boton-tickets:hover {
+    transform: scale(1.1);
+    background-color: #96C93E;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.second-article {
+    margin-bottom: 30px;
+}
+
+.div-titulo {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.div-titulo p{
+    font-size: 0.7em;
+}
+
+.div-titulo b{
+    font-size: 1.7em;
+}
+
+.description {
+    font-size: 0.8em;
+    line-height: 2;
+    padding-right: 10px;
+}
+
+.div-oradores {
+    display: flex;
     justify-content: center;
-    height: 100vh;
+}
+
+.div-oradores div {
+    width: 20vw;
+    border: 1px solid #DFDFDF;
+    border-radius: 2px;
+    padding: 1px;
+    margin: 25px;
+    margin-bottom: auto;
+}
+
+.div-oradores p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.div-oradores b {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.skills-js {
+    background-color: #FEC106;
+    color: #000;
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 2px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.skills-react {
+    background-color: #17A2B7;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+.skills-negocios {
+    background-color: #6D7580;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+.skills-startups {
+    background-color: #DC3546;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+.div-oradores img {
+    width: 20vw;
+}
+
+.third-article {
+    display: flex;
+}
+
+.third-article-img {
+    width: 50vw;
+}
+
+.third-article-div {
+    background-color: #353A40;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+button.boton-conocemas {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.boton-conocemas:hover {
+    transform: scale(1.1);
+    background-color: #ccc;
+    color: #222;
+}
+
+
+.fourth-article-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+.fourth-article-div b {
+    font-size: 40px;
+    
+}
+
+.fourth-article-inputs-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-article-inputs-div input {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 1s;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #96C93E;
+    background-color: #eee;
+}
+
+.fourth-article-form textarea {
+    width: 668.4px;
+    height: 100px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #96C93E;
+    background-color: #eee;
+}
+
+button.boton-enviar {
+    background-color: #96C93E;
+    width: 700px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.boton-enviar:hover {
+    transform: scale(1.1);
+    background-color: #29A746;
+    color: #ddd;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #1E4C66;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #ddd;
+    transform: scale(1.1);
 }
