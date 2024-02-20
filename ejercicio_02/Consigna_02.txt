@@ -1,0 +1,74 @@
+GOOGLE BARD:
+
+Ejercicio práctico de HTML y CSS: Diseño de páginas de loggeo
+Objetivo: Diseñar y desarrollar tres páginas de loggeo con diferentes estilos utilizando HTML y CSS.
+
+Consigna:
+
+Página 1: Loggeo sobrio y profesional
+
+Colores: Predominio de colores neutros como blanco, negro y gris.
+Tipografía: Fuente sans-serif legible y profesional.
+Elementos: Formulario de loggeo simple con campos para usuario y contraseña. Botón de "Iniciar sesión".
+Recursos:
+Imagen de fondo abstracta con líneas finas.
+Icono de candado para el campo de contraseña.
+
+
+Página 2: Loggeo alegre y colorido
+
+Colores: Paleta de colores vibrantes y contrastantes.
+Tipografía: Fuente manuscrita o cursiva amigable.
+Elementos: Formulario de loggeo con diseño más creativo. Ilustraciones o iconos relacionados con la temática del sitio web. Botón de "Iniciar sesión" con forma original.
+Recursos:
+Ilustración de fondo relacionada con la temática del sitio web.
+Iconos personalizados para usuario y contraseña.
+Fuente decorativa para el título.
+
+
+Página 3: Loggeo minimalista y elegante
+
+Colores: Blanco y negro como únicos colores.
+Tipografía: Fuente serif moderna y elegante.
+Elementos: Formulario de loggeo minimalista con solo los campos necesarios. Animaciones sutiles al interactuar con el formulario.
+Recursos:
+Fotografías en blanco y negro de alta calidad.
+Efectos de transición CSS para el botón de "Iniciar sesión".
+Recursos adicionales:
+
+Puedes utilizar frameworks CSS como Bootstrap o Materialize para facilitar el desarrollo de las páginas.
+Busca en sitios web como Freepik o Unsplash imágenes e iconos gratuitos para tus diseños.
+Puedes utilizar Google Fonts para encontrar una tipografía adecuada para cada página.
+No olvides optimizar las imágenes para que no afecten la velocidad de carga de las páginas.
+Recomendaciones:
+
+Planifica el diseño de cada página antes de comenzar a codificar.
+Utiliza un editor de código que te facilite la tarea, como Visual Studio Code o Sublime Text.
+Prueba y valida tu código en diferentes navegadores web.
+Presta atención a la accesibilidad y usabilidad de las páginas.
+Este ejercicio te permitirá practicar tus habilidades en HTML y CSS, y te ayudará a comprender cómo crear interfaces de usuario atractivas y funcionales.
+
+--------------------------------------------------------------------------------------------------
+
+Aquí te dejo algunos sitios web donde puedes obtener imágenes e iconos gratuitos para tu proyecto:
+
+Imágenes:
+
+Pixabay: https://pixabay.com/es/
+Unsplash: https://unsplash.com/
+Pexels: https://www.pexels.com/
+Freepik: https://www.freepik.es/
+
+
+Iconos:
+
+Flaticon: https://www.flaticon.es/
+Font Awesome: https://fontawesome.com/
+Iconfinder: https://www.iconfinder.com/
+Icons8: <se quitó una URL no válida>
+Material Design Icons: <se quitó una URL no válida>
+Recursos adicionales:
+
+Google Fonts: https://fonts.google.com/
+Bootstrap: https://getbootstrap.com/
+Materialize: https://materializecss.com/
