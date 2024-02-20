@@ -90,9 +90,10 @@ article {
 
 /*---------- ARTICLES - HEAD ----------*/
 .article-head {
-    background-image: url(/ej1-clonarWeb/img/ba1.jpg);
-    background-size: cover;
+    background-image: url(../img/ba1.jpg);
+    background-size: fill;
     background-repeat: no-repeat;
+    background-position: center;
     background-position-y: -95px;
     display: flex;
 }
