@@ -1,4 +1,5 @@
-# ej1-clonarWeb
+# Repositorio de ejercicios.
+
 Ejercicio para probar GIT con Juanito Perona.
 
 Pruba de cambio en readme local.
