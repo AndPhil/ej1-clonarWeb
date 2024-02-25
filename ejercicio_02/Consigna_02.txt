@@ -1,7 +1,8 @@
 GOOGLE BARD:
 
 Ejercicio práctico de HTML y CSS: Diseño de páginas de loggeo
-Objetivo: Diseñar y desarrollar tres páginas de loggeo con diferentes estilos utilizando HTML y CSS.
+Objetivo: Diseñar y desarrollar una página de loggeo utilizando HTML y CSS.
+Luego darle funcionalidad de validación de contraseña y usuario con JS.
 
 Consigna:
 
@@ -15,31 +16,6 @@ Imagen de fondo abstracta con líneas finas.
 Icono de candado para el campo de contraseña.
 
 
-Página 2: Loggeo alegre y colorido
-
-Colores: Paleta de colores vibrantes y contrastantes.
-Tipografía: Fuente manuscrita o cursiva amigable.
-Elementos: Formulario de loggeo con diseño más creativo. Ilustraciones o iconos relacionados con la temática del sitio web. Botón de "Iniciar sesión" con forma original.
-Recursos:
-Ilustración de fondo relacionada con la temática del sitio web.
-Iconos personalizados para usuario y contraseña.
-Fuente decorativa para el título.
-
-
-Página 3: Loggeo minimalista y elegante
-
-Colores: Blanco y negro como únicos colores.
-Tipografía: Fuente serif moderna y elegante.
-Elementos: Formulario de loggeo minimalista con solo los campos necesarios. Animaciones sutiles al interactuar con el formulario.
-Recursos:
-Fotografías en blanco y negro de alta calidad.
-Efectos de transición CSS para el botón de "Iniciar sesión".
-Recursos adicionales:
-
-Puedes utilizar frameworks CSS como Bootstrap o Materialize para facilitar el desarrollo de las páginas.
-Busca en sitios web como Freepik o Unsplash imágenes e iconos gratuitos para tus diseños.
-Puedes utilizar Google Fonts para encontrar una tipografía adecuada para cada página.
-No olvides optimizar las imágenes para que no afecten la velocidad de carga de las páginas.
 Recomendaciones:
 
 Planifica el diseño de cada página antes de comenzar a codificar.
