@@ -24,24 +24,20 @@ const showHiddenPass = (loginPass, loginEye) => {
 showHiddenPass('login-pass','login-eye')
 
 /* ========== LOGIN ========== */
-console.log('WebLogin')
-console.log('-----')
+console.log('===== WebLogin =====')
 
 // Obtener botón
 const btnLogin = document.querySelector(".login__button");
 
-// Obtener selectores
-let Email = document.getElementById('login-email').value;
-let Pass = document.getElementById('login-pass').value;
-
 // Detectar evento
 btnLogin.addEventListener('click', ObtenerValores);
-form.submit
 
-// Función para obtener valores.
-function ObtenerValores() {
-    console.log(Email)
-    console.log(Pass)
+// Obtener selectores
+let Email = document.getElementById('login__form').elements[0];
+
+
+function ObtenerValores(params) {
+    
 }
 
 
